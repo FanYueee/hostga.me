@@ -1,12 +1,13 @@
 'use client'
 
 import { useState } from 'react'
+import type { ReactElement } from 'react'
 
 interface Feature {
   id: string
   title: string
   description: string
-  icon: JSX.Element
+  icon: ReactElement
   color: string
   bgColor: string
 }

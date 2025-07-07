@@ -46,7 +46,7 @@ export default function RustHero() {
   }
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-orange-900 to-red-900 overflow-hidden">
+    <section className="relative min-h-screen lg:min-h-screen bg-gradient-to-br from-slate-900 via-orange-900 to-red-900 overflow-hidden pb-16 lg:pb-0">
       {/* 高級背景系統 */}
       <div className="absolute inset-0">
         {/* 多層漸層背景 */}
@@ -77,8 +77,8 @@ export default function RustHero() {
         }}></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center w-full">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen lg:min-h-screen flex items-center py-16 lg:py-0">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center w-full">
           
           {/* 左側內容 - 占7列 */}
           <div className="lg:col-span-7 text-left">

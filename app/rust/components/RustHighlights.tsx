@@ -93,16 +93,16 @@ export default function RustHighlights() {
                   key={item.id}
                   className={`flex items-center gap-4 p-4 rounded-xl transition-all duration-300 cursor-pointer ${
                     hoveredItem === item.id 
-                      ? 'bg-gradient-to-r from-orange-50 to-red-50 shadow-md scale-105' 
+                      ? 'bg-gradient-to-r from-orange-50 to-red-50 shadow-md lg:scale-105' 
                       : 'hover:bg-gray-50'
                   }`}
-                  onMouseEnter={() => setHoveredItem(item.id)}
-                  onMouseLeave={() => setHoveredItem(null)}
+                  onMouseEnter={() => window.innerWidth >= 1024 && setHoveredItem(item.id)}
+                  onMouseLeave={() => window.innerWidth >= 1024 && setHoveredItem(null)}
                 >
                   {/* 圓形圖示 */}
                   <div className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-xl transition-all duration-300 ${
                     hoveredItem === item.id 
-                      ? 'bg-gradient-to-r from-orange-500 to-red-500 shadow-lg shadow-orange-200 scale-110' 
+                      ? 'bg-gradient-to-r from-orange-500 to-red-500 shadow-lg shadow-orange-200 lg:scale-110' 
                       : 'bg-gray-100'
                   }`}>
                     <span className="transition-all duration-300">

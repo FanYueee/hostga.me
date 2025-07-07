@@ -59,13 +59,13 @@ export default function RustFeatures() {
         </div>
 
         {/* 方案卡片 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 mt-8">
           {plans.map((plan, index) => (
             <div
               key={plan.id}
               className={`group relative bg-white rounded-2xl transition-all duration-300 cursor-pointer ${
                 plan.popular 
-                  ? 'shadow-xl scale-105' 
+                  ? 'shadow-xl scale-105 mt-8 lg:mt-0' 
                   : 'shadow-md hover:shadow-lg'
               }`}
               onMouseEnter={() => setHoveredPlan(plan.id)}
@@ -74,7 +74,7 @@ export default function RustFeatures() {
               {/* 熱門標籤 */}
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20">
-                  <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-5 py-1.5 rounded-full text-sm font-semibold shadow-md">
+                  <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 lg:px-5 py-1 lg:py-1.5 rounded-full text-xs lg:text-sm font-semibold shadow-md">
                     最受歡迎
                   </div>
                 </div>

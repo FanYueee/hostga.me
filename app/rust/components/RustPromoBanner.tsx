@@ -91,9 +91,9 @@ export default function RustPromoBanner() {
             </div>
 
             <div className="relative z-10 px-8 py-6">
-              <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
+              <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-6">
                 {/* 左側優惠內容 */}
-                <div className="flex flex-col lg:flex-row items-center gap-4">
+                <div className="flex flex-col lg:flex-row items-center gap-4 mb-4 lg:mb-0">
                   {/* 優惠標籤 */}
                   <div className="relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 blur-lg opacity-60 animate-pulse"></div>
@@ -121,11 +121,11 @@ export default function RustPromoBanner() {
                   <div className="absolute -inset-6 bg-gradient-to-r from-orange-500/20 to-red-500/20 blur-2xl animate-pulse"></div>
                   
                   {/* 倒數容器 */}
-                  <div className="relative bg-black/50 backdrop-blur-md rounded-2xl p-6 border border-orange-500/30">
-                    <div className="flex items-center justify-center gap-4">
+                  <div className="relative bg-black/50 backdrop-blur-md rounded-2xl p-4 lg:p-6 border border-orange-500/30">
+                    <div className="flex items-center justify-center gap-2 lg:gap-4">
                       {/* 天 */}
                       <div className="text-center">
-                        <div className={`text-4xl font-black font-mono text-orange-300 transition-all duration-500 ${
+                        <div className={`text-2xl lg:text-4xl font-black font-mono text-orange-300 transition-all duration-500 ${
                           flipAnimation.days ? 'scale-110' : ''
                         }`} style={{
                           textShadow: '0 0 20px rgba(251, 146, 60, 0.6), 0 0 40px rgba(251, 146, 60, 0.3)'
@@ -135,11 +135,11 @@ export default function RustPromoBanner() {
                         <div className="text-xs text-orange-200/70 mt-1 font-medium">天</div>
                       </div>
 
-                      <div className="text-orange-400/60 text-3xl font-bold">:</div>
+                      <div className="text-orange-400/60 text-xl lg:text-3xl font-bold">:</div>
 
                       {/* 時 */}
                       <div className="text-center">
-                        <div className={`text-4xl font-black font-mono text-orange-300 transition-all duration-500 ${
+                        <div className={`text-2xl lg:text-4xl font-black font-mono text-orange-300 transition-all duration-500 ${
                           flipAnimation.hours ? 'scale-110' : ''
                         }`} style={{
                           textShadow: '0 0 20px rgba(251, 146, 60, 0.6), 0 0 40px rgba(251, 146, 60, 0.3)'
@@ -149,11 +149,11 @@ export default function RustPromoBanner() {
                         <div className="text-xs text-orange-200/70 mt-1 font-medium">時</div>
                       </div>
 
-                      <div className="text-orange-400/60 text-3xl font-bold">:</div>
+                      <div className="text-orange-400/60 text-xl lg:text-3xl font-bold">:</div>
 
                       {/* 分 */}
                       <div className="text-center">
-                        <div className={`text-4xl font-black font-mono text-orange-300 transition-all duration-500 ${
+                        <div className={`text-2xl lg:text-4xl font-black font-mono text-orange-300 transition-all duration-500 ${
                           flipAnimation.minutes ? 'scale-110' : ''
                         }`} style={{
                           textShadow: '0 0 20px rgba(251, 146, 60, 0.6), 0 0 40px rgba(251, 146, 60, 0.3)'
@@ -163,11 +163,11 @@ export default function RustPromoBanner() {
                         <div className="text-xs text-orange-200/70 mt-1 font-medium">分</div>
                       </div>
 
-                      <div className="text-red-400/60 text-3xl font-bold animate-pulse">:</div>
+                      <div className="text-red-400/60 text-xl lg:text-3xl font-bold animate-pulse">:</div>
 
                       {/* 秒 */}
                       <div className="text-center">
-                        <div className={`text-4xl font-black font-mono text-red-300 transition-all duration-300 ${
+                        <div className={`text-2xl lg:text-4xl font-black font-mono text-red-300 transition-all duration-300 ${
                           flipAnimation.seconds ? 'scale-125' : 'animate-pulse'
                         }`} style={{
                           textShadow: '0 0 25px rgba(248, 113, 113, 0.8), 0 0 50px rgba(248, 113, 113, 0.4)'

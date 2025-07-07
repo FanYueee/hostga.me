@@ -112,11 +112,11 @@ export default function Features() {
         </div>
 
         {/* 特色網格 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {features.map((feature, index) => (
             <div
               key={feature.id}
-              className={`group relative p-8 rounded-2xl transition-all duration-500 transform ${
+              className={`group relative p-6 sm:p-8 rounded-2xl transition-all duration-500 transform ${
                 hoveredFeature === feature.id || hoveredFeature === null
                   ? 'opacity-100 translate-y-0 scale-100'
                   : 'opacity-70 translate-y-1 scale-95'
@@ -136,17 +136,17 @@ export default function Features() {
               {/* 內容 */}
               <div className="relative z-10">
                 {/* 圖標 */}
-                <div className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${feature.color} text-white mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                <div className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${feature.color} text-white mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
                   {feature.icon}
                 </div>
                 
                 {/* 標題 */}
-                <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-gray-800 transition-colors duration-300">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4 group-hover:text-gray-800 transition-colors duration-300">
                   {feature.title}
                 </h3>
                 
                 {/* 描述 */}
-                <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
                   {feature.description}
                 </p>
               </div>

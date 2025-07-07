@@ -103,26 +103,26 @@ export default function Hero() {
             </div>
 
             {/* 統計數據 */}
-            <div className={`grid grid-cols-3 gap-6 transition-all duration-1000 delay-800 transform ${
+            <div className={`grid grid-cols-3 gap-4 sm:gap-6 mt-8 sm:mt-0 transition-all duration-1000 delay-800 transform ${
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
               <div className="text-center sm:text-left">
-                <div className="text-3xl font-black text-gray-900 mb-1">99.9%</div>
-                <div className="text-sm text-gray-600">穩定運行</div>
+                <div className="text-2xl sm:text-3xl font-black text-gray-900 mb-1">99.9%</div>
+                <div className="text-xs sm:text-sm text-gray-600">穩定運行</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-3xl font-black text-gray-900 mb-1">24/7</div>
-                <div className="text-sm text-gray-600">全天支援</div>
+                <div className="text-2xl sm:text-3xl font-black text-gray-900 mb-1">24/7</div>
+                <div className="text-xs sm:text-sm text-gray-600">全天支援</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-3xl font-black text-gray-900 mb-1">5000+</div>
-                <div className="text-sm text-gray-600">滿意客戶</div>
+                <div className="text-2xl sm:text-3xl font-black text-gray-900 mb-1">5000+</div>
+                <div className="text-xs sm:text-sm text-gray-600">滿意客戶</div>
               </div>
             </div>
           </div>
 
           {/* 右側視覺元素 */}
-          <div className={`relative transition-all duration-1000 delay-400 transform -mt-16 ${
+          <div className={`relative transition-all duration-1000 delay-400 transform mt-8 lg:-mt-16 ${
             isLoaded ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'
           }`}>
             <div className="relative">

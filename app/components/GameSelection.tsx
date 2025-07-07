@@ -148,9 +148,9 @@ export default function GameSelection() {
                     </div>
                   </div>
 
-                  {/* hover 時顯示的按鈕 */}
+                  {/* hover 時顯示的按鈕 - 手機版直接顯示 */}
                   <div className={`absolute bottom-8 left-8 right-8 transition-all duration-300 ${
-                    hoveredGame === game.id ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+                    hoveredGame === game.id ? 'opacity-100 translate-y-0' : 'opacity-100 translate-y-0 lg:opacity-0 lg:translate-y-4'
                   }`}>
                     <div className={`inline-flex items-center px-6 py-3 bg-gradient-to-r ${game.color} text-white font-medium rounded-lg shadow-lg`}>
                       瞭解更多

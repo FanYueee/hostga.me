@@ -109,9 +109,7 @@ export default function AboutTeam() {
                 
                 {/* 資訊區域 */}
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:bg-clip-text transition-all duration-300" 
-                      style={{ backgroundImage: hoveredMember === index ? `linear-gradient(to right, var(--tw-gradient-stops))` : 'none' }}
-                      className={`text-xl font-bold text-gray-900 mb-1 group-hover:text-transparent group-hover:bg-gradient-to-r ${member.gradient} group-hover:bg-clip-text transition-all duration-300`}>
+                  <h3 className={`text-xl font-bold text-gray-900 mb-1 group-hover:text-transparent group-hover:bg-gradient-to-r ${member.gradient} group-hover:bg-clip-text transition-all duration-300`}>
                     {member.name}
                   </h3>
                   <p className="text-sm text-gray-600 mb-3">{member.role}</p>

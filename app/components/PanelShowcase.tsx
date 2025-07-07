@@ -2,12 +2,13 @@
 
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
+import type { ReactElement } from 'react'
 
 interface PanelFeature {
   id: string
   title: string
   description: string
-  icon: JSX.Element
+  icon: ReactElement
   image: string
   color: string
 }

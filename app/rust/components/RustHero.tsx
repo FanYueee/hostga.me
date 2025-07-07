@@ -83,7 +83,7 @@ export default function RustHero() {
           {/* 左側內容 - 占7列 */}
           <div className="lg:col-span-7 text-left">
             {/* 品牌標識 */}
-            <div className={`inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-500/10 to-red-500/10 backdrop-blur-xl border border-orange-400/20 rounded-full text-orange-200 text-sm font-medium mb-8 transition-all duration-1000 transform hover:scale-105 ${
+            <div className={`inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-500/10 to-red-500/10 backdrop-blur-xl border border-orange-400/20 rounded-full text-orange-200 text-sm font-medium mb-8 mt-4 transition-all duration-1000 transform hover:scale-105 ${
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
               <div className="w-2 h-2 bg-orange-400 rounded-full mr-3 animate-pulse"></div>

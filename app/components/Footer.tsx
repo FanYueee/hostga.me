@@ -171,7 +171,7 @@ export default function Footer() {
               <span className="ml-2 inline-block w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
             </p>
             <div className="flex space-x-6 text-sm">
-              <Link href="/terms" className="hover:text-blue-400 transition-colors duration-200 relative group">
+              <Link href="/tos" className="hover:text-blue-400 transition-colors duration-200 relative group">
                 服務條款
                 <span className="absolute -bottom-1 left-0 w-0 h-px bg-blue-400 group-hover:w-full transition-all duration-200"></span>
               </Link>
@@ -179,7 +179,7 @@ export default function Footer() {
                 隱私條款
                 <span className="absolute -bottom-1 left-0 w-0 h-px bg-purple-400 group-hover:w-full transition-all duration-200"></span>
               </Link>
-              <Link href="/usage" className="hover:text-green-400 transition-colors duration-200 relative group">
+              <Link href="/aup" className="hover:text-green-400 transition-colors duration-200 relative group">
                 使用政策
                 <span className="absolute -bottom-1 left-0 w-0 h-px bg-green-400 group-hover:w-full transition-all duration-200"></span>
               </Link>

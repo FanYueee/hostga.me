@@ -140,7 +140,7 @@ export default function PanelShowcase() {
                       {feature.title}
                     </h3>
                     <p className={`text-xs text-gray-600 transition-all duration-300 ${
-                      activeFeature === index ? 'opacity-100 block' : 'opacity-70 hidden lg:block'
+                      activeFeature === index ? 'opacity-100' : 'opacity-70'
                     }`}>
                       {feature.description}
                     </p>

@@ -67,12 +67,13 @@ export default function AboutCTA() {
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
               <button
+                onClick={() => window.location.href = 'https://client.vproxy.cloud'}
                 onMouseEnter={() => setHoveredButton('start')}
                 onMouseLeave={() => setHoveredButton(null)}
                 className="group relative px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-lg rounded-2xl overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25"
               >
                 <span className="relative z-10 flex items-center justify-center">
-                  立即開始
+                  立即開始使用
                   <svg className="w-6 h-6 ml-3 transition-transform group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -83,7 +84,6 @@ export default function AboutCTA() {
               </button>
             </div>
             
-            {/* 特色點 */}
           </div>
         </div>
       </div>

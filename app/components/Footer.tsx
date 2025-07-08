@@ -27,7 +27,7 @@ export default function Footer() {
             
             {/* 簡短介紹 */}
             <p className="text-gray-400 max-w-md">
-              提供專業的遊戲伺服器託管服務，支援 Minecraft、ARK、RUST、DAYZ 等熱門遊戲，
+              提供專業的遊戲伺服器託管服務，支援 Minecraft、Ark、Rust、DayZ 等熱門遊戲，
               確保您享有穩定、高效能的遊戲體驗。
             </p>
             
@@ -104,7 +104,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/team" className="group flex items-center hover:text-purple-400 transition-colors duration-200">
+                  <Link href="/partner" className="group flex items-center hover:text-purple-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-purple-400 mr-2">›</span>
                     合作夥伴
                   </Link>
@@ -120,19 +120,19 @@ export default function Footer() {
               </h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/support" className="group flex items-center hover:text-green-400 transition-colors duration-200">
+                  <Link href="https://discord.vproxy.cloud" className="group flex items-center hover:text-green-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-green-400 mr-2">›</span>
                     Discord 社群
                   </Link>
                 </li>
                 <li>
-                  <Link href="/faq" className="group flex items-center hover:text-green-400 transition-colors duration-200">
+                  <Link href="https://cluent.vproxy.cloud" className="group flex items-center hover:text-green-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-green-400 mr-2">›</span>
                     客戶中心
                   </Link>
                 </li>
                 <li>
-                  <Link href="/status" className="group flex items-center hover:text-green-400 transition-colors duration-200">
+                  <Link href="https://docs.vproxy.cloud" className="group flex items-center hover:text-green-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-green-400 mr-2">›</span>
                     文檔中心
                   </Link>

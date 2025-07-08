@@ -56,29 +56,10 @@ export default function PartnersHero() {
           </h1>
           
           <p className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto mb-12 leading-relaxed">
-            與業界領先的遊戲伺服器託管服務提供商攜手合作
+            與專業遊戲伺服器託管服務提供商攜手合作
             <br className="hidden sm:block" />
             共同為玩家創造極致的遊戲體驗
           </p>
-        </div>
-        
-        {/* 特色亮點 */}
-        <div className={`grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto transition-all duration-1000 delay-300 ${
-          isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-        }`}>
-          {[
-            { icon: '🤝', title: '互利共贏', desc: '共享收益與成長機會' },
-            { icon: '🎯', title: '專業支援', desc: '全方位技術與行銷支持' },
-            { icon: '🚀', title: '市場領先', desc: '與創新領導者並肩前行' }
-          ].map((item, index) => (
-            <div key={index} className="group">
-              <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-white/50">
-                <div className="text-4xl mb-4">{item.icon}</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-600 text-sm">{item.desc}</p>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </section>

@@ -27,23 +27,23 @@ export default function PartnersAdvantages() {
   const advantages = [
     {
       icon: '💰',
-      title: '經銷代理',
-      description: '成為我們的經銷夥伴，享受豐厚的佣金分潤制度',
-      benefits: ['高額首次佣金', '持續性月費分潤', '階梯式獎勵制度'],
+      title: '專屬優惠',
+      description: '提供給觀眾的專屬優惠碼，增加轉換率與吸引新觀眾',
+      benefits: ['分潤制度', '每月付款'],
       gradient: 'from-green-500 to-emerald-500'
     },
     {
       icon: '🛠️',
-      title: '技術合作',
-      description: '技術資源整合，共同為客戶提供更完整的解決方案',
-      benefits: ['技術資源共享', '聯合產品開發', '專業技術支援'],
+      title: '免費主機',
+      description: '提供免費的遊戲伺服器主機，讓您在直播或影片中使用',
+      benefits: ['多款遊戲支援', '高性能硬體'],
       gradient: 'from-blue-500 to-cyan-500'
     },
     {
       icon: '🤝',
-      title: '策略聯盟',
-      description: '建立長期戰略夥伴關係，共同開拓市場機會',
-      benefits: ['市場共同開發', '品牌聯合推廣', '資源優勢互補'],
+      title: '專屬支援',
+      description: '提供專屬的技術支援，確保您的伺服器運行順利',
+      benefits: ['一對一專屬客服人員', '優先回應問題'],
       gradient: 'from-purple-500 to-pink-500'
     }
   ]

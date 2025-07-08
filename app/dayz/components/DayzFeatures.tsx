@@ -9,7 +9,7 @@ export default function DayzFeatures() {
   const plans = [
     {
       id: 0,
-      name: '新手倖存者',
+      name: '入門方案',
       cpu: '2 核心',
       memory: '6 GB',
       storage: '25 GB SSD',
@@ -21,11 +21,11 @@ export default function DayzFeatures() {
     },
     {
       id: 1,
-      name: '專業倖存者',
+      name: '標準方案',
       cpu: '4 核心',
       memory: '8 GB',
       storage: '30 GB SSD',
-      network: '250 Mbps',
+      network: '10 Gbps',
       players: '18 人',
       features: ['DDoS 防護', '異地定時備份', '基礎客服支援'],
       price: 'NT$ 640/月',
@@ -33,7 +33,7 @@ export default function DayzFeatures() {
     },
     {
       id: 2,
-      name: '生存專家',
+      name: '專業方案',
       cpu: '6 核心',
       memory: '10 GB',
       storage: '35 GB SSD',

@@ -40,31 +40,59 @@ export default function Navbar() {
             {/* 遊戲選單 */}
             <Link 
               href="/minecraft" 
-              className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group"
+              className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group flex items-center"
             >
+              <Image 
+                src="/minecraft_grass.jpg" 
+                alt="Minecraft" 
+                width={20} 
+                height={20}
+                className="mr-2 rounded-sm"
+              />
               <span className="relative z-10">Minecraft</span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-200"></span>
+              <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left"></span>
             </Link>
             <Link 
               href="/ark" 
-              className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group"
+              className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group flex items-center"
             >
-              <span className="relative z-10">Ark 方舟生存</span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-200"></span>
+              <Image 
+                src="/ark_logo.png" 
+                alt="ARK" 
+                width={20} 
+                height={20}
+                className="mr-2 rounded-sm"
+              />
+              <span className="relative z-10">ARK 方舟生存</span>
+              <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left"></span>
             </Link>
             <Link 
               href="/rust" 
-              className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group"
+              className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group flex items-center"
             >
+              <Image 
+                src="/rust_logo.jpg" 
+                alt="Rust" 
+                width={20} 
+                height={20}
+                className="mr-2 rounded-sm"
+              />
               <span className="relative z-10">Rust</span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-200"></span>
+              <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left"></span>
             </Link>
             <Link 
               href="/dayz" 
-              className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group"
+              className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group flex items-center"
             >
+              <Image 
+                src="/dayz_logo.jpg" 
+                alt="DayZ" 
+                width={20} 
+                height={20}
+                className="mr-2 rounded-sm"
+              />
               <span className="relative z-10">DayZ</span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-200"></span>
+              <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left"></span>
             </Link>
             
             {/* 分隔線 */}
@@ -121,7 +149,13 @@ export default function Navbar() {
               className="group flex items-center px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              <div className="w-2 h-2 bg-green-500 rounded-full mr-3 group-hover:animate-pulse"></div>
+              <Image 
+                src="/minecraft_grass.jpg" 
+                alt="Minecraft" 
+                width={24} 
+                height={24}
+                className="mr-3 rounded-sm"
+              />
               Minecraft
             </Link>
             <Link 
@@ -129,15 +163,27 @@ export default function Navbar() {
               className="group flex items-center px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              <div className="w-2 h-2 bg-purple-500 rounded-full mr-3 group-hover:animate-pulse"></div>
-              Ark 方舟生存
+              <Image 
+                src="/ark_logo.png" 
+                alt="ARK" 
+                width={24} 
+                height={24}
+                className="mr-3 rounded-sm"
+              />
+              ARK 方舟生存
             </Link>
             <Link 
               href="/rust" 
               className="group flex items-center px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              <div className="w-2 h-2 bg-orange-500 rounded-full mr-3 group-hover:animate-pulse"></div>
+              <Image 
+                src="/rust_logo.jpg" 
+                alt="Rust" 
+                width={24} 
+                height={24}
+                className="mr-3 rounded-sm"
+              />
               Rust
             </Link>
             <Link 
@@ -145,7 +191,13 @@ export default function Navbar() {
               className="group flex items-center px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              <div className="w-2 h-2 bg-red-500 rounded-full mr-3 group-hover:animate-pulse"></div>
+              <Image 
+                src="/dayz_logo.jpg" 
+                alt="DayZ" 
+                width={24} 
+                height={24}
+                className="mr-3 rounded-sm"
+              />
               DayZ
             </Link>
             <div className="h-px bg-gray-200 my-3"></div>

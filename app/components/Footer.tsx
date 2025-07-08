@@ -27,7 +27,7 @@ export default function Footer() {
             
             {/* 簡短介紹 */}
             <p className="text-gray-400 max-w-md">
-              提供專業的遊戲伺服器託管服務，支援 Minecraft、Ark、Rust、DayZ 等熱門遊戲，
+              提供專業的遊戲伺服器託管服務，支援 Minecraft、ARK、Rust、DayZ 等熱門遊戲，
               確保您享有穩定、高效能的遊戲體驗。
             </p>
             

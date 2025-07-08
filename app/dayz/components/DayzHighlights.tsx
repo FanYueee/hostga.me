@@ -12,7 +12,7 @@ export default function DayzHighlights() {
         id: 1,
         icon: '🚀',
         title: '極速啟動',
-        description: '30秒內完成伺服器部署，立即開始遊戲'
+        description: '10 分鐘內完成完整安裝與預設配置'
       },
       {
         id: 2,
@@ -24,7 +24,7 @@ export default function DayzHighlights() {
         id: 3,
         icon: '⚡',
         title: '高效能硬體',
-        description: '最新 CPU 與 SSD，極速載入體驗'
+        description: '使用企業級 CPU 處理器與高速 NVMe SSD',
       }
     ],
     // 第二行
@@ -38,14 +38,14 @@ export default function DayzHighlights() {
       {
         id: 5,
         icon: '💾',
-        title: '自動備份',
-        description: '每日自動備份，資料永不遺失'
+        title: '整機異地備份',
+        description: '定時備份，保障資料安全'
       },
       {
         id: 6,
         icon: '🌐',
-        title: '全球節點',
-        description: '多地機房部署，低延遲連接'
+        title: '香港節點',
+        description: '亞洲低延遲，提供最佳遊戲體驗'
       }
     ],
     // 第三行
@@ -54,19 +54,19 @@ export default function DayzHighlights() {
         id: 7,
         icon: '🎯',
         title: '精準調優',
-        description: '專為 DayZ 優化的生存環境配置'
+        description: '專為 DayZ 優化的伺服器配置'
       },
       {
         id: 8,
         icon: '📞',
-        title: '24/7 支援',
-        description: '全天候技術支援，隨時為您服務'
+        title: '12/7 支援',
+        description: '每日 12 小時服務時間，平均回應時間 10 分鐘'
       },
       {
         id: 9,
         icon: '💎',
         title: '穩定可靠',
-        description: '99.9% 正常運行時間保證'
+        description: '至今超過 99% 正常運行時間'
       }
     ]
   ]

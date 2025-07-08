@@ -126,7 +126,7 @@ export default function DayzHero() {
                 <button 
                   className="text-cyan-300 font-medium hover:text-cyan-200 hover:scale-105 transition-all duration-200 cursor-pointer"
                   onClick={() => handleElementClick('dominate')}
-                > 統治伺服器</button>。
+                > 玩家鬥爭</button>。
                 頂級硬體配置，為你打造終極 DayZ 生存體驗。
               </p>
             </div>
@@ -181,21 +181,6 @@ export default function DayzHero() {
                   <svg className="w-6 h-6 ml-3 transition-transform group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
-                </span>
-              </button>
-              
-              <button 
-                onClick={() => handleElementClick('watch-demo')}
-                className={`group px-10 py-5 border-2 border-blue-400/40 text-blue-200 font-bold text-lg rounded-2xl hover:bg-blue-400/10 transition-all duration-500 backdrop-blur-xl hover:border-blue-300/60 hover:scale-105 active:scale-95 ${
-                  clickedElement === 'watch-demo' ? 'bg-blue-400/20 border-blue-300 scale-105' : ''
-                }`}
-              >
-                <span className="flex items-center justify-center tracking-wide">
-                  <svg className="w-6 h-6 mr-3 transition-transform group-hover:rotate-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  觀看預告
                 </span>
               </button>
             </div>

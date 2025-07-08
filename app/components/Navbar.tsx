@@ -49,21 +49,21 @@ export default function Navbar() {
               href="/ark" 
               className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group"
             >
-              <span className="relative z-10">ARK</span>
+              <span className="relative z-10">Ark 方舟生存</span>
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-200"></span>
             </Link>
             <Link 
               href="/rust" 
               className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group"
             >
-              <span className="relative z-10">RUST</span>
+              <span className="relative z-10">Rust</span>
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-200"></span>
             </Link>
             <Link 
               href="/dayz" 
               className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-200 group"
             >
-              <span className="relative z-10">DAYZ</span>
+              <span className="relative z-10">DayZ</span>
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-200"></span>
             </Link>
             
@@ -130,7 +130,7 @@ export default function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <div className="w-2 h-2 bg-purple-500 rounded-full mr-3 group-hover:animate-pulse"></div>
-              ARK
+              Ark 方舟生存
             </Link>
             <Link 
               href="/rust" 
@@ -138,7 +138,7 @@ export default function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <div className="w-2 h-2 bg-orange-500 rounded-full mr-3 group-hover:animate-pulse"></div>
-              RUST
+              Rust
             </Link>
             <Link 
               href="/dayz" 
@@ -146,7 +146,7 @@ export default function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <div className="w-2 h-2 bg-red-500 rounded-full mr-3 group-hover:animate-pulse"></div>
-              DAYZ
+              DayZ
             </Link>
             <div className="h-px bg-gray-200 my-3"></div>
             <Link 

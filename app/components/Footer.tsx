@@ -104,7 +104,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/partner" className="group flex items-center hover:text-purple-400 transition-colors duration-200">
+                  <Link href="/partners" className="group flex items-center hover:text-purple-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-purple-400 mr-2">›</span>
                     合作夥伴
                   </Link>

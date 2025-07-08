@@ -59,8 +59,7 @@ export default function AboutCTA() {
             <p className={`text-xl text-gray-300 max-w-3xl mx-auto mb-12 transition-all duration-1000 delay-400 ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
-              加入超過 50,000 位滿意的玩家，體驗極致的遊戲伺服器服務。
-              我們提供 7 天免費試用，無需信用卡。
+              加入我們，體驗極致的遊戲伺服器服務。
             </p>
             
             {/* CTA 按鈕 */}
@@ -73,7 +72,7 @@ export default function AboutCTA() {
                 className="group relative px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-lg rounded-2xl overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25"
               >
                 <span className="relative z-10 flex items-center justify-center">
-                  立即開始免費試用
+                  立即開始
                   <svg className="w-6 h-6 ml-3 transition-transform group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -82,36 +81,9 @@ export default function AboutCTA() {
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 animate-pulse"></div>
                 )}
               </button>
-              
-              <button
-                onMouseEnter={() => setHoveredButton('contact')}
-                onMouseLeave={() => setHoveredButton(null)}
-                className="group px-10 py-5 border-2 border-gray-600 text-white font-bold text-lg rounded-2xl hover:border-white transition-all duration-300 backdrop-blur-xl hover:bg-white/10 transform hover:scale-105"
-              >
-                <span className="flex items-center justify-center">
-                  聯絡銷售團隊
-                  <svg className="w-6 h-6 ml-3 opacity-0 group-hover:opacity-100 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </span>
-              </button>
             </div>
             
             {/* 特色點 */}
-            <div className={`mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto transition-all duration-1000 delay-800 ${
-              isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-            }`}>
-              {[
-                { icon: '🚀', text: '30 秒快速部署' },
-                { icon: '💳', text: '無需信用卡' },
-                { icon: '🛡️', text: '7 天免費試用' }
-              ].map((feature, index) => (
-                <div key={index} className="flex items-center justify-center gap-3 text-gray-300">
-                  <span className="text-2xl">{feature.icon}</span>
-                  <span className="text-lg">{feature.text}</span>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>

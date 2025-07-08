@@ -26,39 +26,46 @@ export default function AboutTimeline() {
   
   const timeline = [
     {
-      year: '2014',
+      year: '2022 2月',
       title: '創立初期',
-      description: '從一個小型工作室開始，為本地遊戲社群提供基礎託管服務',
-      milestone: '首批 100 位客戶',
+      description: 'vProxy Cloud 成立於台灣，專注於 Minecraft 伺服器託管',
+      milestone: '在新加坡開設首個節點',
       color: 'from-blue-500 to-cyan-500'
     },
     {
-      year: '2016',
-      title: '技術突破',
-      description: '自主研發管理系統，大幅提升服務效率與穩定性',
-      milestone: '推出 24/7 技術支援',
+      year: '2022 10月',
+      title: '擴展日本主機',
+      description: '成功在日本東京開設伺服器節點，降低台灣連線延遲',
+      milestone: 'Minecraft 伺服器主機遷移至日本',
       color: 'from-purple-500 to-pink-500'
     },
     {
-      year: '2018',
-      title: '業務擴張',
-      description: '擴展至東南亞市場，建立多個數據中心',
-      milestone: '服務超過 10,000 位玩家',
+      year: '2022 12月',
+      title: '擴展台灣主機',
+      description: '在台灣開設新的伺服器節點，提升本地玩家體驗',
+      milestone: '新增台灣節點，提供更穩定的連線',
       color: 'from-orange-500 to-red-500'
     },
     {
-      year: '2020',
-      title: '品牌升級',
-      description: '重新定位品牌形象，推出全新產品線',
-      milestone: '獲得最佳服務商獎',
+      year: '2023 9月',
+      title: '在新加坡開設高性能節點',
+      description: '使用企業機房與新世代 AMD Ryzen 處理器，提供更高效能的遊戲體驗',
+      milestone: '提供更為穩定和可靠的服務',
       color: 'from-green-500 to-teal-500'
     },
     {
-      year: '2023',
-      title: '創新發展',
-      description: '導入 AI 技術優化服務，提供更智能的解決方案',
-      milestone: '突破 50,000 位用戶',
+      year: '2024 12月',
+      title: '擴展台灣高性能節點',
+      description: '在台灣新增高性能伺服器節點，擴展超過 5 台節點',
+      milestone: '提供更高效能的遊戲體驗',
       color: 'from-indigo-500 to-blue-500'
+    },
+    {
+      year: '2025 7月',
+      title: '擴展其他遊戲主機',
+      description: '新增 Rust、DayZ 等遊戲伺服器，提供多樣化的遊戲體驗',
+      milestone: '新增多款遊戲伺服器，滿足不同玩家需求',
+      color: 'from-orange-500 to-orange-500'
     }
   ]
   
@@ -73,7 +80,7 @@ export default function AboutTimeline() {
             我們的成長歷程
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            十年征程，見證每一個重要時刻
+            三年征程，見證每一個重要時刻
           </p>
         </div>
         
@@ -177,7 +184,7 @@ export default function AboutTimeline() {
           <div className="relative inline-block">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 blur-xl opacity-30"></div>
             <div className="relative bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white rounded-3xl px-12 py-8">
-              <h3 className="text-2xl font-bold mb-2">2024 及未來</h3>
+              <h3 className="text-2xl font-bold mb-2">2025 及未來</h3>
               <p className="text-lg opacity-90">持續創新，與您共創更美好的遊戲世界</p>
             </div>
           </div>

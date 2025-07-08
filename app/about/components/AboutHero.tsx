@@ -29,7 +29,7 @@ export default function AboutHero() {
     }
   }, [])
   
-  const words = ['創新', '專業', '熱情']
+  const words = ['可靠', '專業', '熱情']
   
   return (
     <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-50 pt-20">
@@ -96,9 +96,9 @@ export default function AboutHero() {
             isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
           }`}>
             {[
-              { number: '10+', label: '年經驗', color: 'from-blue-500 to-cyan-500' },
-              { number: '50K+', label: '滿意客戶', color: 'from-purple-500 to-pink-500' },
-              { number: '99.9%', label: '正常運行時間', color: 'from-orange-500 to-red-500' }
+              { number: '3+', label: '年經驗', color: 'from-blue-500 to-cyan-500' },
+              { number: '100+', label: '滿意客戶', color: 'from-purple-500 to-pink-500' },
+              { number: '99%', label: '正常運行時間', color: 'from-orange-500 to-red-500' }
             ].map((stat, index) => (
               <div key={index} className="group cursor-pointer">
                 <div className="relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">

@@ -12,7 +12,7 @@ export default function ArkFAQ() {
     },
     {
       question: "伺服器的地圖可以自訂嗎？",
-      answer: "是的！您可以完全哪一張地圖。"
+      answer: "是的！您可以完全設定是哪一張地圖。"
     },
     {
       question: "如果遇到技術問題，如何獲得支援？",

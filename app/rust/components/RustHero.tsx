@@ -87,7 +87,7 @@ export default function RustHero() {
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
               <div className="w-2 h-2 bg-orange-400 rounded-full mr-3 animate-pulse"></div>
-              Premium Rust Experience
+              #1 亞洲 Rust 伺服器託管
             </div>
 
             {/* 分行標題系統 */}
@@ -228,7 +228,7 @@ export default function RustHero() {
                   
                   <div className="relative bg-black rounded-xl overflow-hidden">
                     <Image
-                      src="/logo.png"
+                      src="/rust.jpg"
                       alt="Rust 戰場實況"
                       width={400}
                       height={500}

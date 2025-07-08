@@ -11,8 +11,8 @@ interface Game {
   color: string
   gradient: string
   features: string[]
-  playerCount: string
-  icon: string
+  price: string
+  iconPath: string
 }
 
 const games: Game[] = [
@@ -23,8 +23,8 @@ const games: Game[] = [
     color: 'from-green-500 to-emerald-600',
     gradient: 'from-green-50 to-emerald-50',
     features: ['創造模式', '生存模式', '多人連線', '模組支援'],
-    playerCount: '2-100 人',
-    icon: '⛏️'
+    price: 'NT$90 起',
+    iconPath: '/minecraft_grass.jpg'
   },
   {
     id: 'ark',
@@ -33,8 +33,8 @@ const games: Game[] = [
     color: 'from-orange-500 to-red-600',
     gradient: 'from-orange-50 to-red-50',
     features: ['恐龍馴服', '基地建設', 'PVP/PVE', '生存挑戰'],
-    playerCount: '10-70 人',
-    icon: '🦕'
+    price: 'NT$770 起',
+    iconPath: '/ark_logo.png'
   },
   {
     id: 'rust',
@@ -43,8 +43,8 @@ const games: Game[] = [
     color: 'from-gray-600 to-gray-800',
     gradient: 'from-gray-50 to-slate-50',
     features: ['掠奪系統', '建築系統', '戰鬥系統', '團隊合作'],
-    playerCount: '50-200 人',
-    icon: '🔧'
+    price: 'NT$770 起',
+    iconPath: '/rust_logo.jpg'
   },
   {
     id: 'dayz',
@@ -53,8 +53,8 @@ const games: Game[] = [
     color: 'from-purple-600 to-indigo-700',
     gradient: 'from-purple-50 to-indigo-50',
     features: ['開放世界', '生存要素', '喪屍威脅', '真實物理'],
-    playerCount: '30-60 人',
-    icon: '🧟'
+    price: 'NT$480 起',
+    iconPath: '/dayz_logo.jpg'
   }
 ]
 
@@ -103,8 +103,14 @@ export default function GameSelection() {
                 <div className="relative h-full p-8 flex flex-col">
                   {/* 頂部圖標和標題 */}
                   <div className="mb-6">
-                    <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                      {game.icon}
+                    <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                      <Image
+                        src={game.iconPath}
+                        alt={`${game.name} Logo`}
+                        width={64}
+                        height={64}
+                        className="w-16 h-16 object-contain"
+                      />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">
                       {game.name}
@@ -138,12 +144,9 @@ export default function GameSelection() {
 
                   {/* 底部資訊 */}
                   <div className="mt-6 pt-6 border-t border-gray-200">
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm text-gray-600">
-                        支援人數
-                      </span>
+                    <div className="flex items-center justify-end">
                       <span className="text-sm font-semibold text-gray-900">
-                        {game.playerCount}
+                        {game.price}
                       </span>
                     </div>
                   </div>

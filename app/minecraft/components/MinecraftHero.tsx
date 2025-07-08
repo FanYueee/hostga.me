@@ -87,7 +87,7 @@ export default function MinecraftHero() {
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
               <div className="w-2 h-2 bg-green-400 rounded-full mr-3 animate-pulse"></div>
-              Premium Minecraft Experience
+              #1 亞洲 Minecraft 伺服器託管
             </div>
 
             {/* 分行標題系統 */}
@@ -189,21 +189,6 @@ export default function MinecraftHero() {
                   </svg>
                 </span>
               </button>
-              
-              <button 
-                onClick={() => handleElementClick('watch-demo')}
-                className={`group px-10 py-5 border-2 border-green-400/40 text-green-200 font-bold text-lg rounded-2xl hover:bg-green-400/10 transition-all duration-500 backdrop-blur-xl hover:border-green-300/60 hover:scale-105 active:scale-95 ${
-                  clickedElement === 'watch-demo' ? 'bg-green-400/20 border-green-300 scale-105' : ''
-                }`}
-              >
-                <span className="flex items-center justify-center tracking-wide">
-                  <svg className="w-6 h-6 mr-3 transition-transform group-hover:rotate-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  觀看預告
-                </span>
-              </button>
             </div>
           </div>
 
@@ -243,7 +228,7 @@ export default function MinecraftHero() {
                   
                   <div className="relative bg-black rounded-xl overflow-hidden">
                     <Image
-                      src="/logo.png"
+                      src="/minecraft.jpg"
                       alt="Minecraft 方塊世界實況"
                       width={400}
                       height={500}

@@ -8,10 +8,8 @@ export default function MinecraftPage() {
   return (
     <>
       <MinecraftHero />
-      <MinecraftPromoBanner />
       <MinecraftFeatures />
       <MinecraftHighlights />
-      <MinecraftFAQ />
     </>
   );
 }

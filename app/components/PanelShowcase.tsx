@@ -176,7 +176,7 @@ export default function PanelShowcase() {
                   </div>
                   <div className="flex-1 text-center">
                     <div className="bg-gray-700 rounded px-4 py-1 text-xs text-gray-300 inline-block">
-                      panel.hostgame.com
+                      panel.hostga.me
                     </div>
                   </div>
                 </div>

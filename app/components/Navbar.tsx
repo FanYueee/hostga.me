@@ -119,7 +119,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-4">
             {/* 客戶中心按鈕 */}
             <Link 
-              href="/customer-center" 
+              href="https://client.vproxy.cloud/" 
               className="inline-flex items-center px-4 lg:px-6 py-2.5 border-2 border-blue-600 text-blue-600 font-medium rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-200 hover:shadow-lg text-sm lg:text-base"
             >
               客戶中心

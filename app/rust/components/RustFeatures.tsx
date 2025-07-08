@@ -15,7 +15,7 @@ export default function RustFeatures() {
       storage: '30 GB SSD',
       network: '10 Gbps',
       players: '10-20 人',
-      features: ['DDoS 防護', '異地自動備份', '基礎客服支援'],
+      features: ['DDoS 防護', '異地定時備份', '基礎客服支援'],
       price: 'NT$ 770/月',
       popular: false
     },
@@ -27,7 +27,7 @@ export default function RustFeatures() {
       storage: '35 GB SSD',
       network: '10 Gbps',
       players: '20-50 人',
-      features: ['DDoS 防護', '異地自動備份', '基礎客服支援'],
+      features: ['DDoS 防護', '異地定時備份', '基礎客服支援'],
       price: 'NT$ 920/月',
       popular: true
     },
@@ -39,7 +39,7 @@ export default function RustFeatures() {
       storage: '40 GB SSD',
       network: '10 Gbps',
       players: '50-100 人',
-      features: ['DDoS 防護', '異地自動備份', '基礎客服支援'],
+      features: ['DDoS 防護', '異地定時備份', '基礎客服支援'],
       price: 'NT$ 1220/月',
       popular: false
     }

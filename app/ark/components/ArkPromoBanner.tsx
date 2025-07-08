@@ -106,11 +106,11 @@ export default function ArkPromoBanner() {
                   <div className="text-center lg:text-left">
                     <h3 className="text-xl lg:text-2xl font-bold text-white">
                       首月享受 
-                      <span className="text-teal-300 text-2xl lg:text-3xl mx-1">30%</span>
+                      <span className="text-teal-300 text-2xl lg:text-3xl mx-1">20%</span>
                       折扣優惠
                     </h3>
                     <p className="text-emerald-200 text-sm mt-1">
-                      新用戶專屬 • 自動續費享同等優惠
+                      新用戶專屬特別優惠，使用優惠碼 <span className="font-bold">ARK20</span>！
                     </p>
                   </div>
                 </div>

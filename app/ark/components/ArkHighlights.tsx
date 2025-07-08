@@ -12,7 +12,7 @@ export default function ArkHighlights() {
         id: 1,
         icon: '🚀',
         title: '極速啟動',
-        description: '30秒內完成伺服器部署，立即開始遊戲'
+        description: '10 分鐘內完成完整安裝與預設配置'
       },
       {
         id: 2,
@@ -24,7 +24,7 @@ export default function ArkHighlights() {
         id: 3,
         icon: '⚡',
         title: '高效能硬體',
-        description: '最新 CPU 與 SSD，極速載入體驗'
+        description: '使用企業級 CPU 處理器與高速 NVMe SSD',
       }
     ],
     // 第二行
@@ -38,14 +38,14 @@ export default function ArkHighlights() {
       {
         id: 5,
         icon: '💾',
-        title: '自動備份',
-        description: '每日自動備份，資料永不遺失'
+        title: '整機異地備份',
+        description: '定時備份，保障資料安全'
       },
       {
         id: 6,
         icon: '🌐',
-        title: '全球節點',
-        description: '多地機房部署，低延遲連接'
+        title: '香港節點',
+        description: '亞洲低延遲，提供最佳遊戲體驗'
       }
     ],
     // 第三行
@@ -54,19 +54,19 @@ export default function ArkHighlights() {
         id: 7,
         icon: '🎯',
         title: '精準調優',
-        description: '專為 Rust 優化的伺服器配置'
+        description: '專為 ARK 優化的伺服器配置'
       },
       {
         id: 8,
         icon: '📞',
-        title: '24/7 支援',
-        description: '全天候技術支援，隨時為您服務'
+        title: '12/7 支援',
+        description: '每日 12 小時服務時間，平均回應時間 10 分鐘'
       },
       {
         id: 9,
         icon: '💎',
         title: '穩定可靠',
-        description: '99.9% 正常運行時間保證'
+        description: '至今超過 99% 正常運行時間'
       }
     ]
   ]
@@ -77,10 +77,10 @@ export default function ArkHighlights() {
         {/* 標題區 */}
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            為什麼選擇我們的 ARK 伺服器？
+            為什麼選擇我們的 ARK: Survival Evolved 伺服器？
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            專業的技術團隊，為您提供最優質的 ARK 遊戲體驗
+            專業的技術團隊，為您提供最優質的 ARK: Survival Evolved 遊戲體驗
           </p>
         </div>
 

@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
 
 export default function Hero() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -77,8 +76,11 @@ export default function Hero() {
             <div className={`flex flex-col sm:flex-row gap-4 mb-12 transition-all duration-1000 delay-600 transform ${
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
-              <Link
-                href="/pricing"
+              <button
+                onClick={() => {
+                  const element = document.getElementById('game-selection');
+                  element?.scrollIntoView({ behavior: 'smooth' });
+                }}
                 className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden"
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
@@ -88,7 +90,7 @@ export default function Hero() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
                 </span>
-              </Link>
+              </button>
             </div>
 
             {/* 統計數據 */}

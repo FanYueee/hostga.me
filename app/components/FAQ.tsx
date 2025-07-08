@@ -92,7 +92,7 @@ export default function FAQ() {
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Link
-                  href="/docs"
+                  href="https://docs.vproxy.cloud"
                   className="group p-4 bg-white rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
                 >
                   <div className="flex items-center space-x-3">
@@ -113,7 +113,7 @@ export default function FAQ() {
                 </Link>
                 
                 <Link
-                  href="/contact"
+                  href="https://discord.vproxy.cloud"
                   className="group p-4 bg-white rounded-xl border border-gray-200 hover:border-green-300 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
                 >
                   <div className="flex items-center space-x-3">

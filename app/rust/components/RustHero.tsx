@@ -170,7 +170,13 @@ export default function RustHero() {
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
               <button 
-                onClick={() => handleElementClick('start-game')}
+                onClick={() => {
+                  handleElementClick('start-game')
+                  const element = document.getElementById('rust-pricing')
+                  if (element) {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                  }
+                }}
                 className={`group relative px-10 py-5 bg-gradient-to-r from-orange-500 via-red-600 to-orange-600 text-white font-bold text-lg rounded-2xl overflow-hidden shadow-2xl hover:shadow-orange-500/25 transition-all duration-500 hover:scale-105 active:scale-95 ${
                   clickedElement === 'start-game' ? 'animate-pulse scale-110' : ''
                 }`}

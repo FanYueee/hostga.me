@@ -46,7 +46,7 @@ export default function MinecraftFeatures() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section id="minecraft-pricing" className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* 標題區 */}
         <div className="text-center mb-16">

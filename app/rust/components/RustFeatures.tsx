@@ -11,36 +11,36 @@ export default function RustFeatures() {
       id: 0,
       name: '入門方案',
       cpu: '4 核心',
-      memory: '8 GB',
-      storage: '50 GB SSD',
-      network: '100 Mbps',
+      memory: '10 GB',
+      storage: '30 GB SSD',
+      network: '10 Gbps',
       players: '10-20 人',
-      features: ['DDoS 防護', '自動備份', '基礎支援'],
-      price: 'NT$ 599/月',
+      features: ['DDoS 防護', '異地自動備份', '基礎客服支援'],
+      price: 'NT$ 770/月',
       popular: false
     },
     {
       id: 1,
       name: '標準方案',
-      cpu: '8 核心',
-      memory: '16 GB',
-      storage: '100 GB SSD',
-      network: '250 Mbps',
+      cpu: '6 核心',
+      memory: '12 GB',
+      storage: '35 GB SSD',
+      network: '10 Gbps',
       players: '20-50 人',
-      features: ['DDoS 防護', '自動備份', '優先支援', '免費子網域'],
-      price: 'NT$ 999/月',
+      features: ['DDoS 防護', '異地自動備份', '基礎客服支援'],
+      price: 'NT$ 920/月',
       popular: true
     },
     {
       id: 2,
       name: '專業方案',
-      cpu: '16 核心',
-      memory: '32 GB',
-      storage: '200 GB SSD',
-      network: '500 Mbps',
+      cpu: '8 核心',
+      memory: '16 GB',
+      storage: '40 GB SSD',
+      network: '10 Gbps',
       players: '50-100 人',
-      features: ['DDoS 防護', '自動備份', '24/7 專屬支援', '免費子網域', '效能優化'],
-      price: 'NT$ 1999/月',
+      features: ['DDoS 防護', '異地自動備份', '基礎客服支援'],
+      price: 'NT$ 1220/月',
       popular: false
     }
   ]
@@ -139,18 +139,6 @@ export default function RustFeatures() {
                       <div className="text-xs text-gray-500">網路速度</div>
                     </div>
                   </div>
-
-                  <div className="flex items-center">
-                    <div className="w-8 h-8 bg-orange-100 rounded-md flex items-center justify-center mr-2.5">
-                      <svg className="w-5 h-5 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="font-medium text-gray-900 text-sm">{plan.players}</div>
-                      <div className="text-xs text-gray-500">建議人數</div>
-                    </div>
-                  </div>
                 </div>
 
                 {/* 特色功能 */}
@@ -206,7 +194,7 @@ export default function RustFeatures() {
                 需要訂製方案嗎？
               </h3>
               <p className="text-gray-300 text-lg">
-                我們提供客製化的伺服器配置，滿足您的特殊需求
+                我們提供客製化的伺服器配置，滿足您的所有需求
               </p>
             </div>
             
@@ -217,7 +205,7 @@ export default function RustFeatures() {
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
-              聯絡客服中心
+              聯絡客服人員
               <svg className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

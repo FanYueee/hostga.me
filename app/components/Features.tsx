@@ -16,7 +16,7 @@ const features: Feature[] = [
   {
     id: 'performance',
     title: '極速效能',
-    description: '采用最新 SSD 硬碟和高效能 CPU，確保遊戲在最佳狀態下運行，無延遲、無卡頓。',
+    description: '使用高速 NVMe SSD 硬碟與高性能 CPU，確保遊戲在最佳狀態下運行。',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -28,7 +28,7 @@ const features: Feature[] = [
   {
     id: 'security',
     title: '安全防護',
-    description: '多層安全防護，DDoS 防護、防火牆、加密連線，全方位保障您的伺服器安全。',
+    description: '全球 Anycast DDoS 防護，輕鬆抵禦超過 100Gbps+ 攻擊。',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -39,8 +39,8 @@ const features: Feature[] = [
   },
   {
     id: 'support',
-    title: '24/7 客服',
-    description: '全天候專業技術支援，平均回應時間 5 分鐘，經驗豐富的技術團隊隨時為您解決問題。',
+    title: '12/7 客服',
+    description: '每日 12 小時專業技術支援，平均回應時間 10 分鐘，經驗豐富的技術團隊隨時為您解決問題。',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
@@ -51,8 +51,8 @@ const features: Feature[] = [
   },
   {
     id: 'backup',
-    title: '智能備份',
-    description: '自動化每日備份，支援多版本儲存和一鍵還原，確保您的遊戲數據絕不會遺失。',
+    title: '定時備份',
+    description: '定時自動整機備份，確保您的遊戲資料安全無虞，異地備份處理。',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
@@ -76,7 +76,7 @@ const features: Feature[] = [
   {
     id: 'monitoring',
     title: '即時監控',
-    description: '全方位監控伺服器狀態，即時告警通知，詳細的效能報告，讓您随時掌握伺服器狀態。',
+    description: '網頁控制面板提供即時伺服器狀態監控，CPU、記憶體、網路使用狀況一目瞭然。',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -162,22 +162,6 @@ export default function Features() {
         </div>
         
         {/* 底部 CTA */}
-        <div className="text-center mt-16">
-          <p className="text-gray-600 mb-8">
-            還有疑問？我們的專業團隊隨時為您解答
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="group inline-flex items-center px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-              立即試用
-              <svg className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </button>
-            <button className="inline-flex items-center px-8 py-3 border-2 border-gray-300 text-gray-700 font-medium rounded-xl hover:border-gray-400 hover:bg-gray-50 transition-all duration-300">
-              查看方案
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   )

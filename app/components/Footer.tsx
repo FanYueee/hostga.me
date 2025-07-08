@@ -72,19 +72,19 @@ export default function Footer() {
                 <li>
                   <Link href="/ark" className="group flex items-center hover:text-blue-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-blue-400 mr-2">›</span>
-                    ARK 伺服器
+                    ARK 方舟生存伺服器
                   </Link>
                 </li>
                 <li>
                   <Link href="/rust" className="group flex items-center hover:text-blue-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-blue-400 mr-2">›</span>
-                    RUST 伺服器
+                    Rust 伺服器
                   </Link>
                 </li>
                 <li>
                   <Link href="/dayz" className="group flex items-center hover:text-blue-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-blue-400 mr-2">›</span>
-                    DAYZ 伺服器
+                    DayZ 伺服器
                   </Link>
                 </li>
               </ul>
@@ -100,25 +100,13 @@ export default function Footer() {
                 <li>
                   <Link href="/about" className="group flex items-center hover:text-purple-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-purple-400 mr-2">›</span>
-                    公司簡介
+                    關於我們
                   </Link>
                 </li>
                 <li>
                   <Link href="/team" className="group flex items-center hover:text-purple-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-purple-400 mr-2">›</span>
-                    團隊介紹
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/partners" className="group flex items-center hover:text-purple-400 transition-colors duration-200">
-                    <span className="text-gray-500 group-hover:text-purple-400 mr-2">›</span>
                     合作夥伴
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contact" className="group flex items-center hover:text-purple-400 transition-colors duration-200">
-                    <span className="text-gray-500 group-hover:text-purple-400 mr-2">›</span>
-                    聯絡我們
                   </Link>
                 </li>
               </ul>
@@ -134,25 +122,19 @@ export default function Footer() {
                 <li>
                   <Link href="/support" className="group flex items-center hover:text-green-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-green-400 mr-2">›</span>
-                    技術支援
+                    Discord 社群
                   </Link>
                 </li>
                 <li>
                   <Link href="/faq" className="group flex items-center hover:text-green-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-green-400 mr-2">›</span>
-                    常見問題
+                    客戶中心
                   </Link>
                 </li>
                 <li>
                   <Link href="/status" className="group flex items-center hover:text-green-400 transition-colors duration-200">
                     <span className="text-gray-500 group-hover:text-green-400 mr-2">›</span>
-                    服務狀態
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/billing" className="group flex items-center hover:text-green-400 transition-colors duration-200">
-                    <span className="text-gray-500 group-hover:text-green-400 mr-2">›</span>
-                    帳務中心
+                    文檔中心
                   </Link>
                 </li>
               </ul>
@@ -167,7 +149,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm mb-4 sm:mb-0 flex items-center">
-              © 2024 HostGame. All rights reserved.
+              © 2025 HostGame(HostGa.Me). All rights reserved.
               <span className="ml-2 inline-block w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
             </p>
             <div className="flex space-x-6 text-sm">

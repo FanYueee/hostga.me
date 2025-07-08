@@ -28,7 +28,7 @@ const games: Game[] = [
   },
   {
     id: 'ark',
-    name: 'ARK',
+    name: 'ARK: Survival Evolved',
     description: '馴服恐龍，征服史前世界',
     color: 'from-orange-500 to-red-600',
     gradient: 'from-orange-50 to-red-50',
@@ -38,7 +38,7 @@ const games: Game[] = [
   },
   {
     id: 'rust',
-    name: 'RUST',
+    name: 'Rust',
     description: '極限生存，信任無人',
     color: 'from-gray-600 to-gray-800',
     gradient: 'from-gray-50 to-slate-50',
@@ -48,7 +48,7 @@ const games: Game[] = [
   },
   {
     id: 'dayz',
-    name: 'DAYZ',
+    name: 'DayZ',
     description: '喪屍末日，活下去',
     color: 'from-purple-600 to-indigo-700',
     gradient: 'from-purple-50 to-indigo-50',
@@ -166,22 +166,6 @@ export default function GameSelection() {
               </div>
             </Link>
           ))}
-        </div>
-
-        {/* 底部 CTA */}
-        <div className="text-center mt-16">
-          <p className="text-gray-600 mb-6">
-            不確定選擇哪款遊戲？我們的專業團隊隨時為您提供建議
-          </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center px-8 py-3 border-2 border-gray-300 text-gray-700 font-medium rounded-lg hover:border-gray-400 hover:bg-gray-50 transition-all duration-200"
-          >
-            聯絡客服
-            <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-            </svg>
-          </Link>
         </div>
       </div>
     </section>

@@ -13,27 +13,27 @@ const faqData: FAQItem[] = [
   {
     id: 'setup',
     question: '多久可以開始使用伺服器？',
-    answer: '一般情況下，您的伺服器在支付完成後 5-10 分鐘內就會自動部署完成。我們的自動化系統會為您安裝遊戲、配置設定，並發送連線資訊到您的郵箱。'
+    answer: '一般情況下，您的伺服器在支付完成後 5-10 分鐘內就會自動部署完成。我們的自動化系統會為您安裝遊戲、配置預設設定。'
   },
   {
     id: 'backup',
-    question: '如何進行數據備份和還原？',
-    answer: '我們提供自動備份功能，每日會自動備份您的遊戲數據。您也可以在控制面板中手動建立備份。還原時，只需點擊「還原備份」按鈕，系統會自動停止伺服器並還原指定的備份檔案。'
+    question: '如何進行資料備份和還原？',
+    answer: '如有加購備份額度。您可以在控制面板中的備份管理手動建立備份。或是透過排程管理進行自動化的定時備份。。'
   },
   {
     id: 'performance',
-    question: '伺服器性能不夠時可以升級嗎？',
-    answer: '當然可以！您可以隨時在控制面板中升級 CPU、記憶體或儲存空間。升級過程通常在 2-5 分鐘內完成，且不會遺失任何數據。我們也提供彈性計費，只需支付實際使用的資源。'
+    question: '伺服器資源不夠時可以升級嗎？',
+    answer: '當然可以！您可以在客戶中心進行升級操作，付款完畢系統會自動處理升級。'
   },
   {
     id: 'support',
     question: '遇到問題時如何聯繫客服？',
-    answer: '我們提供 24/7 全天候客服支援。您可以透過以下方式聯繫我們：1. 在線客服系統（平均回應時間 2 分鐘） 2. 工單系統 3. 電話支援 4. 郵件支援。我們的技術團隊都具有豐富的遊戲伺服器管理經驗。'
+    answer: '我們提供 12/7 客服支援。您可以在服務時間隨時聯繫我們，非服務時間我們將於服務時間內盡速處理。可透過客戶中心或是 Discord 聯繫我們的技術支援團隊。'
   },
   {
     id: 'mods',
     question: '可以安裝模組或插件嗎？',
-    answer: '當然可以！我們支援安裝各種遊戲模組和插件。您可以透過檔案管理器上傳模組，或在控制面板中使用一鍵安裝功能。我們也提供熱門模組包的快速部署服務。'
+    answer: '當然可以。您可以透過檔案管理或 SFTP 上傳模組至伺服器主機中。'
   }
 ]
 
@@ -71,14 +71,14 @@ export default function FAQ() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    專業技術支援
+                    可靠技術支援
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    我們的技術團隊擁有多年遊戲伺服器管理經驗，無論您遇到什麼問題，我們都能提供專業的解決方案。
+                    我們的技術團隊擁有多年遊戲伺服器管理經驗，遇到問題我們能提供即時的協助。
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">平均回應 5 分鐘</span>
-                    <span className="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">24/7 在線</span>
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">平均回應 10 分鐘</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">12/7 在線</span>
                     <span className="px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full">中文服務</span>
                   </div>
                 </div>

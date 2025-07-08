@@ -17,7 +17,7 @@ const features: PanelFeature[] = [
   {
     id: 'dashboard',
     title: '即時監控儀表板',
-    description: '一目瞭然的伺服器狀態，包含 CPU、記憶體、網路使用率，以及玩家活動資訊。',
+    description: '一目瞭然的伺服器狀態，包含 CPU、記憶體、儲存空間使用量。',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -28,8 +28,8 @@ const features: PanelFeature[] = [
   },
   {
     id: 'console',
-    title: '伺服器終端控制',
-    description: '完整的命令列控制，支援所有遊戲指令，即時查看日誌，輕鬆管理您的伺服器。',
+    title: '伺服器控制台',
+    description: '即時控制台，支援指令輸入(部分遊戲)，輕鬆管理伺服器。',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -53,7 +53,7 @@ const features: PanelFeature[] = [
   {
     id: 'backup',
     title: '自動備份系統',
-    description: '智能化備份管理，支援排程備份、一鍵還原，確保您的遊戲資料永不遺失。',
+    description: '備份管理，支援排程備份、一鍵還原，確保您的遊戲資料永不遺失。',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />

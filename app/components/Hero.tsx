@@ -67,10 +67,10 @@ export default function Hero() {
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
               專業級 <span className="font-semibold text-blue-600">Minecraft</span>、
-              <span className="font-semibold text-purple-600">ARK</span>、
-              <span className="font-semibold text-indigo-600">RUST</span>、
-              <span className="font-semibold text-pink-600">DAYZ</span> 
-              遊戲伺服器託管服務。99.9% 穩定運行，24/7 技術支援。
+              <span className="font-semibold text-purple-600">ARK: Survival Evolved</span>、
+              <span className="font-semibold text-indigo-600">Rust</span>、
+              <span className="font-semibold text-pink-600">DayZ </span> 
+              遊戲伺服器託管服務。抗 DDoS 攻擊，低延遲連體驗。
             </p>
 
             {/* CTA 按鈕組 */}
@@ -89,17 +89,6 @@ export default function Hero() {
                   </svg>
                 </span>
               </Link>
-              
-              <Link
-                href="/demo"
-                className="group inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-gray-700 bg-white border-2 border-gray-200 rounded-2xl shadow-md hover:shadow-lg hover:border-gray-300 transition-all duration-300 hover:scale-105"
-              >
-                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                觀看演示
-              </Link>
             </div>
 
             {/* 統計數據 */}
@@ -107,15 +96,15 @@ export default function Hero() {
               isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
             }`}>
               <div className="text-center sm:text-left">
-                <div className="text-2xl sm:text-3xl font-black text-gray-900 mb-1">99.9%</div>
+                <div className="text-2xl sm:text-3xl font-black text-gray-900 mb-1">99%</div>
                 <div className="text-xs sm:text-sm text-gray-600">穩定運行</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-2xl sm:text-3xl font-black text-gray-900 mb-1">24/7</div>
-                <div className="text-xs sm:text-sm text-gray-600">全天支援</div>
+                <div className="text-2xl sm:text-3xl font-black text-gray-900 mb-1">12/7</div>
+                <div className="text-xs sm:text-sm text-gray-600">客服支援</div>
               </div>
               <div className="text-center sm:text-left">
-                <div className="text-2xl sm:text-3xl font-black text-gray-900 mb-1">5000+</div>
+                <div className="text-2xl sm:text-3xl font-black text-gray-900 mb-1">100+</div>
                 <div className="text-xs sm:text-sm text-gray-600">滿意客戶</div>
               </div>
             </div>
@@ -137,8 +126,8 @@ export default function Hero() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-bold text-gray-900">自定義配置</h3>
-                      <p className="text-sm text-gray-600">拖拉調整規格</p>
+                      <h3 className="font-bold text-gray-900">客製化方案</h3>
+                      <p className="text-sm text-gray-600">自訂所需的資源</p>
                     </div>
                   </div>
                   
